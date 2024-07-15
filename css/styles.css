@@ -12,6 +12,11 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+a {
+  color: #cc9933;
+  text-decoration: none;
+}
+
 .header_top {
   display: flex;
   align-items: center;
@@ -159,10 +164,66 @@ body {
 
   font-size: 16px;
   font-weight: 300;
-  color: #cc9933;
-  text-decoration: none;
 }
 
 .About {
   margin-top: 80px;
+}
+
+.about__content p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  width: 888px;
+}
+
+/**************************SERVICES************************/
+
+.Services {
+  margin-top: 80px;
+}
+
+.services__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services__card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+
+  margin-bottom: 20px;
+
+  max-width: 573px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.services__card__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-left: 30px;
+  min-height: 165px;
+}
+
+.services__card__img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.services__card a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.services__card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+
+  width: 402px;
 }
